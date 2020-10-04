@@ -4,22 +4,22 @@ This implementation of the deflate algoritm follows the [RFC1951](https://tools.
 
 # Setup
 
-run on the root of the project the following command:
+Run on the root of the project the following command:
 
 ```sh
 $ make
 ```
-it will generate an executable named `deflate`
+It will generate an executable named `deflate`
 
 
 # Usage
 
-compress:
+How to compress:
 ```sh
 $ ./deflate -c <nameFileInput.ext> <nameFileOutput.ext>
 ```
 
-decompress:
+How to decompress:
 ```sh
 $ ./deflate -d <nameFileInput.ext> <nameFileOutput.ext>
 ```
