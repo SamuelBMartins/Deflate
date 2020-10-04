@@ -2,7 +2,7 @@
 This implementation of the deflate algoritm follows the [RFC1951](https://tools.ietf.org/html/rfc1951#section-Abstract) except for the part about the compression of the code lenght sequence (page 12). The software was written following the C99 standard.
 
 
-# Setup
+## Setup
 
 Run on the root of the project the following command:
 
@@ -12,7 +12,7 @@ $ make
 It will generate an executable named `deflate`
 
 
-# Usage
+## Usage
 
 How to compress:
 ```sh
@@ -25,7 +25,7 @@ $ ./deflate -d <nameFileInput.ext> <nameFileOutput.ext>
 ```
 
 
-# Features
+## Features
 
   - huffman coding with self implemented priority queues
   - buffers to reduce file system requests
